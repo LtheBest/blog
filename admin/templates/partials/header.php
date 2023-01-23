@@ -134,7 +134,7 @@
                                     class="fa fa-tachometer"></i><span class="hide-menu">Dashboard</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="?page=account&action=updateAccount" aria-expanded="false"><i
                                     class="fa fa-user-circle-o"></i><span class="hide-menu">account update</span></a></li>
-                        <li> <a class="waves-effect waves-dark" href="?page=category&action=category" aria-expanded="false"><i
+                        <li> <a class="waves-effect waves-dark" href="?page=category" aria-expanded="false"><i
                                     class="fa fa-table"></i><span class="hide-menu"></span>Category</a></li>
                         <li> <a class="waves-effect waves-dark" href="icon-fontawesome.html" aria-expanded="false"><i
                                     class="fa fa-smile-o"></i><span class="hide-menu"></span>Icon</a></li>
