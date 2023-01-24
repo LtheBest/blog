@@ -136,8 +136,8 @@
                                     class="fa fa-user-circle-o"></i><span class="hide-menu">account update</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="?page=category" aria-expanded="false"><i
                                     class="fa fa-table"></i><span class="hide-menu"></span>Category</a></li>
-                        <li> <a class="waves-effect waves-dark" href="icon-fontawesome.html" aria-expanded="false"><i
-                                    class="fa fa-smile-o"></i><span class="hide-menu"></span>Icon</a></li>
+                        <li> <a class="waves-effect waves-dark" href="?page=article" aria-expanded="false"><i
+                                    class="fa fa-folder-o"></i><span class="hide-menu"></span>Article</a></li>
                         <li> <a class="waves-effect waves-dark" href="map-google.html" aria-expanded="false"><i
                                     class="fa fa-globe"></i><span class="hide-menu"></span>Map</a></li>
                         <li> <a class="waves-effect waves-dark" href="pages-blank.html" aria-expanded="false"><i

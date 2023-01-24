@@ -18,6 +18,9 @@ if(isset($_SESSION['admin'])){
             case 'category';
                 getTemplateApp('category','category');
                 break;
+            case 'article';
+                getTemplateApp('article','article');
+                break;
             default:
                 getTemplate('pages-error-404');
                 break;
