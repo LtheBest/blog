@@ -12,3 +12,6 @@ l'admin peut :
         modifier
     Many-To-One (plusieurs articles peuvent être liés à une seule category)
 creation_site_php
+To execute this code modified beforehand the database connexion
+create your database and diffenrent tables implemented in this program
+we used an MVC architecture
