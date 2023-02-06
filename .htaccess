@@ -1,0 +1,16 @@
+# le serveur doit suivre les liens symboliques 
+Options +FollowSymlinks
+
+
+# activation du module de réécriture de l'URL
+RewriteEngine on
+
+#debut de reecriture de l'url
+
+#reecriture des liens BlogArticle
+
+RewriteRule ^descriptions/article-([0-9]+)-([0-9-a-z-A-Z]+).html$ ?page=BlogArticle&id=$1&slug=$2 [L]
+
+#reecriture de l'url des categories 
+
+RewriteRule ^filter/category/([0-9]+)/([0-9-a-z-A-Z]+)/$  ?page=filter&catId=$1&slug=$2 [L]

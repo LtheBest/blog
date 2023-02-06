@@ -8,7 +8,7 @@
         <!-- footer -->
         <!-- ============================================================== -->
         <footer class="footer">
-            © 2020 Elegent Admin by <a href="https://www.wrappixel.com/">wrappixel.com</a>
+            © Free templates 2020  <a href="https://www.wrappixel.com/"> wrappixel.com </a>
         </footer>
         <!-- ============================================================== -->
         <!-- End footer -->
@@ -44,6 +44,17 @@
     <script src="../assets/node_modules/c3-master/c3.min.js"></script>
     <!-- Chart JS -->
     <script src="dist/js/dashboard1.js"></script>
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+
+    <script>
+        tinymce.init({
+            selector: 'textarea.editor',
+            skin: 'bootstrap',
+            plugins: 'lists, link, image, media',
+            toolbar: 'h1 h2 bold italic strikethrough blockquote bullist numlist backcolor | link image media | removeformat help',
+            menubar: false,
+        });
+    </script>
 </body>
 
 </html>

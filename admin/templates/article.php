@@ -89,7 +89,7 @@
                                 <div class="form-group">
                                     <label class="col-md-12 text-left">content of the article</label>
                                     <div class="col-md-12">
-                                        <textarea name="content" class="form-control form-control-line" rows="8" placeholder="..."></textarea>
+                                        <textarea classe="editor" name="content" class="form-control form-control-line" rows="8" placeholder="..."></textarea>
                                     </div>
                                 </div>
 
@@ -133,7 +133,7 @@
                                 <div class="form-group">
                                     <label class="col-md-12 text-left" >content of the article</label>
                                     <div class="col-md-12">
-                                        <textarea name="content" class="form-control form-control-line" rows="8" ><?php echo $single_article_data->content;?></textarea>
+                                        <textarea classe="editor" name="content" class="form-control form-control-line" rows="8" ><?php echo $single_article_data->content;?></textarea>
                                     </div>
                                 </div>
 
